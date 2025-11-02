@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0] - 2025-11-02
+
+### Added
+- Comprehensive JSON-LD structured data for improved SEO
+- Person schema for Andrew Miller with full biographical data
+- Three MusicGroup schemas (Subtlerage, MSFMA, Solo Piano) with genre classifications
+- WebSite schema with author attribution
+- Cross-referenced entity relationships using @id properties for better knowledge graph integration
+
 ## [1.5.1] - 2025-10-23
 
 ### Fixed
@@ -129,7 +138,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Basic HTML, CSS, and build pipeline structure
 - Cloudflare Pages deployment support
 
-[Unreleased]: https://github.com/84em/andrewmillermusic/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/84em/andrewmillermusic/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/84em/andrewmillermusic/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/84em/andrewmillermusic/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/84em/andrewmillermusic/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/84em/andrewmillermusic/compare/v1.3.0...v1.4.0

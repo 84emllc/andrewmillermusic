@@ -12,6 +12,106 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "@id": "https://andrewmillermusic.com/#person",
+            "name": "Andrew Miller",
+            "alternateName": "Andrew Jonathon Miller",
+            "url": "https://andrewmillermusic.com",
+            "jobTitle": "Composer",
+            "description": "Composer and musician behind Subtlerage, MSFMA, and Solo Piano projects, creating ambient electronic rock, instrumental music, and classical piano compositions.",
+            "sameAs": [
+                "https://subtlerage.com",
+                "https://msfma.com",
+                "https://andrewmillerpiano.com"
+            ],
+            "memberOf": [
+                {
+                    "@type": "MusicGroup",
+                    "@id": "https://andrewmillermusic.com/#subtlerage",
+                    "name": "Subtlerage"
+                },
+                {
+                    "@type": "MusicGroup",
+                    "@id": "https://andrewmillermusic.com/#msfma",
+                    "name": "MSFMA"
+                },
+                {
+                    "@type": "MusicGroup",
+                    "@id": "https://andrewmillermusic.com/#solopiano",
+                    "name": "Solo Piano"
+                }
+            ]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "@id": "https://andrewmillermusic.com/#subtlerage",
+            "name": "Subtlerage",
+            "description": "Ambient electronic rock with introspective soundscapes",
+            "url": "https://subtlerage.com",
+            "genre": ["Ambient", "Electronic", "Rock", "Experimental"],
+            "member": {
+                "@type": "Person",
+                "@id": "https://andrewmillermusic.com/#person",
+                "name": "Andrew Miller"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "@id": "https://andrewmillermusic.com/#msfma",
+            "name": "MSFMA",
+            "description": "Instrumental music from piano to ambient to rock",
+            "url": "https://msfma.com",
+            "genre": ["Instrumental", "Ambient", "Piano", "Rock"],
+            "member": {
+                "@type": "Person",
+                "@id": "https://andrewmillermusic.com/#person",
+                "name": "Andrew Miller"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "@id": "https://andrewmillermusic.com/#solopiano",
+            "name": "Solo Piano",
+            "alternateName": "Andrew Miller Piano",
+            "description": "Classical and contemporary piano compositions",
+            "url": "https://andrewmillerpiano.com",
+            "genre": ["Classical", "Piano", "Contemporary Classical"],
+            "member": {
+                "@type": "Person",
+                "@id": "https://andrewmillermusic.com/#person",
+                "name": "Andrew Miller"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Andrew Miller Music",
+            "url": "https://andrewmillermusic.com",
+            "description": "Home of Subtlerage, MSFMA, and Solo Piano - musical projects by composer Andrew Miller.",
+            "author": {
+                "@type": "Person",
+                "@id": "https://andrewmillermusic.com/#person",
+                "name": "Andrew Miller"
+            },
+            "inLanguage": "en-US"
+        }
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
