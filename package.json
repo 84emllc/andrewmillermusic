@@ -1,6 +1,6 @@
 {
   "name": "andrewmillermusic",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Andrew Miller Music website with Gulp build process",
   "main": "index.js",
   "scripts": {
